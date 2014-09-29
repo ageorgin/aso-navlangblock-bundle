@@ -1,0 +1,19 @@
+{
+    "name": "aso/navlangblock-bundle",
+    "description": "Sonata block to navigate between langs",
+    "keywords": ["symfony2", "sonata"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [{
+        "name" : "Mikael Vigneron"
+    }],
+    "require": {
+        "php" : ">=5.3.0"
+     },
+    "autoload": {
+        "psr-0": {
+            "Aso\\MassEvents\\NavLangBlockBundle\\": ""
+        }
+    },
+    "target-dir" : "Aso/MassEvents/NavLangBlockBundle"
+}
